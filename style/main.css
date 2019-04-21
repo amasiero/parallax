@@ -1,0 +1,117 @@
+@font-face {
+	font-family: "San Francisco";
+	src: url("../font/SF-Compact-Rounded-Regular.otf");
+}
+
+body {
+	font-family: "San Francisco";
+	font-size: 18px;
+	line-height: 28px;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+	font-size: 150px;
+	font-weight: 800;
+	line-height: 200px;
+}
+
+h2.subtitulo {
+	color: white;
+	text-align: center;
+	font-size: 100px;
+	font-weight: 600;
+	margin: 0 auto;
+}
+
+main {
+	perspective: 1px;
+	transform-style: preserve-3d;
+	height: 100vh;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+footer {
+	position: absolute;
+	z-index: 100;
+	bottom: 1vh;
+	top: auto;
+	font-size: 80%;
+	text-align: center;
+	width: 100%;
+}
+
+.logo {
+	display: flex;
+	flex: 1 0 auto;
+	position: relative;
+	height: 100vh;
+	transform: translateZ(-1px) scale(2);
+	z-index: -1;
+	background: url("../images/bg-logo.jpeg") no-repeat;
+	background-size: 100% 100%;
+	align-items: center;
+	background-origin: content-box;
+}
+
+.fullsize {
+	max-width: 100% !important;
+}
+
+.container {
+	position: relative;
+	display: block;
+	background-color: white;
+	z-index: 1;
+}
+
+.conteudo {
+	max-width: 750px;
+	margin: 0 auto;
+	padding: 75px 0;
+}
+
+.titulo {
+	text-align: center;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.bg-cinza {
+	background-color: #efefef;
+}
+
+.texto-titulo-light {
+	font-size: 36px;
+	color: white;
+}
+
+.trabalhos-publicados {
+	display: flex;
+	flex: 1 0 auto;
+	position: relative;
+	height: 100vh;
+	transform: translateZ(-1px) scale(2);
+	z-index: -1;
+	background: url("../images/technology-development.jpg") no-repeat;
+	background-size: 100% 100%;
+	background-origin: content-box;
+	align-items: center;
+}
+
+.novos-projetos {
+	display: flex;
+	flex: 1 0 auto;
+	position: relative;
+	height: 100vh;
+	transform: translateZ(-1px) scale(2);
+	z-index: -1;
+	background: url("../images/think.jpg") no-repeat;
+	background-size: 100% 100%;
+	background-origin: content-box;
+	align-items: center;
+}
